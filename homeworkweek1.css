@@ -1,0 +1,160 @@
+}
+}
+**
+* Positioning Activity Solution (CSS)
+*
+* Note: In this activity, students will be creating these files from scratch.
+* This file is provided for you to guide your class after they finish the assignment.
+* Review this so you know exactly what you'll be showing your students
+**/
+
+* {
+ box-sizing: border-box;
+ text-align: center; 
+}
+
+body {
+ font-size: 18px;
+ line-height: 32px;
+ font-family: Arial, Helvetica, sans-serif;
+ color: gray;
+ background-color: #777;
+ padding: 10px; 
+ margin-bottom: 30px;
+ margin-top: 30px;
+ margin-right: 30px;
+ margin-left: 30px;
+ width: 960px; 
+}
+
+h1 {
+  padding: 30px 0;
+  width: 100%; 
+  margin-top: 0%;
+  margin-bottom: 20px;
+  font-size: 18px;
+  color: grey;
+  text-align: center;
+  background: lightgray;
+  content: #ebebeb; 
+
+}
+
+
+#article {
+  position: relative;
+  font-size: 18px;
+  float: left;
+  height: 90%;
+  width: 90%; 
+  padding: 20px; 
+  margin-bottom: 20px;
+  margin-top: 60px; 
+  text-align: center; 
+  background:#777;
+  overflow: auto;
+  color: lightgray;
+  content: #ebebeb;
+
+}
+.clearfix::after {
+	content: “”;
+	display: block;
+	clear: both;
+}
+.wrapper {
+  width: 600px;
+  padding: 20px;
+  margin: 0 auto;
+ }
+
+.section {
+  float: left;
+  text-align: center;
+  font-size: 18px;
+  width: 520px;
+  height: 49%;
+  margin-left: 0%;
+  margin-top: -1%;
+  padding: 5px;
+  color:gray;
+  border: 2px solid lightgray;
+  background-color: lightgray;
+}
+.wrapper {
+  width: 600px;
+  padding: 20px;
+  margin: 0 auto;
+ }
+
+.clearfix::after {
+	content: “”;
+	display: block;
+	clear: both;
+}
+
+
+#absolute {
+  flex-direction: column;
+  align-items: center;
+  font-size: 18px;
+  width: 95%;
+  overflow: auto;
+  margin-right: 10px;
+  margin-top: 10px;
+  padding: 10px;
+  background:lightgray;
+  color: gray;
+}
+
+
+.clearfix::after {
+	content: “”;
+	display: block;
+	clear: both;
+}
+.wrapper {
+  width: 600px;
+  padding: 20px;
+  margin: 0 auto;
+ }
+
+#Aside {
+  float: left;
+  position: relative;
+  text-align: center;
+  font-size: 18px;
+  width: 408px;
+  height: 322px;
+  margin-top: -1%;
+  margin-left: 2%;
+  margin-right: -5%;
+  margin-bottom: -3%;
+  background: lightgray; 
+  border: 2px;
+}
+
+.clearfix::after {
+	content: “”;
+	display: block;
+	clear: both;
+}
+.wrapper {
+  width: 600px;
+  padding: 20px;
+  margin: 0 auto;
+ }
+
+#footer {
+  float: left;
+  overflow: auto;
+  padding: 20px 0;
+  width: 100%; 
+  margin-top: 20px;
+  margin-bottom: 0%;
+  font-size: 18px;
+  color: grey;
+  text-align: center;
+  background: lightgray;
+  content: #ebebeb; 
+}
